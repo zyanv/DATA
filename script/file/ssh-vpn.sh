@@ -332,6 +332,7 @@ chmod +x mdns
 chmod +x status
 chmod +x update
 chmod +x menu
+chmod +x mwarp
 chmod +x autoreboot
 
 chmod +x clear-log
