@@ -26,15 +26,15 @@ clear
 echo -e  " ${cy}═════════════════════════════════════════════════════════════════${NC} "
 echo -e  " \033[30;5;47m                         ⇱ SCRIPT ZYANV ⇲                        \033[m"      
 echo -e  " ${cy}═════════════════════════════════════════════════════════════════${NC} "
-echo -e  "  ${cy}IP VPS NUMBER${NC}                    : ${wh}$IPVPS${NC}"
-echo -e  "  ${cy}DOMAIN${NC}                           : ${wh}$DOMAIN${NC}"
-echo -e  "  ${cy}OS VERSION${NC}                       : ${wh}`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`"${NC}
-echo -e  "  ${cy}KERNEL VERSION${NC}                   : ${wh}`uname -r`${NC}"
-echo -e  "  ${cy}XRAY CORE VERSION${NC}                : ${wh}$xcore${NC}"
-echo -e  "  ${cy}EXP DATE CERT XRAY${NC}               : ${wh}$expxray${NC}"
+echo -e  "  ${wh}IP VPS NUMBER${NC}                    ${cy}:${NC} ${wh}$IPVPS${NC}"
+echo -e  "  ${wh}DOMAIN${NC}                           ${cy}:${NC} ${wh}$DOMAIN${NC}"
+echo -e  "  ${wh}OS VERSION${NC}                       ${cy}:${NC} ${wh}`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`"${NC}
+echo -e  "  ${wh}KERNEL VERSION${NC}                   ${cy}:${NC} ${wh}`uname -r`${NC}"
+echo -e  "  ${wh}XRAY CORE VERSION${NC}                ${cy}:${NC} ${wh}$xcore${NC}"
+echo -e  "  ${wh}EXP DATE CERT XRAY${NC}               ${cy}:${NC} ${wh}$expxray${NC}"
 echo -e  " ${cy}═════════════════════════════════════════════════════════════════${NC}"
 echo -e  "       ${wh}PROTOCOL     ${cy}SSH/OVPN      VLESS${NC}    "
-echo -e  "       ${wh}TOTAL USER${NC}      ${cy}[${NC}${wh}$usrovpn${cy}]       ${cy}[${NC}${wh}$usrvl]${NC}"
+echo -e  "       ${wh}TOTAL USER${NC}      ${cy}[${wh}$usrovpn${cy}]       [${wh}$usrvl${cy}]${NC}"
 echo -e  " ${cy}═════════════════════════════════════════════════════════════════${NC}"
 echo -e  " \033[30;5;47m                         ⇱ SSHWS/OVPN MENU ⇲                     \033[m"
 echo -e  " ${cy}═════════════════════════════════════════════════════════════════${NC} "
@@ -68,7 +68,7 @@ echo -e  " ${wh}USED BY${NC}        ${cy}:${NC} ${wh}$usersc${NC}"
 echo -e  " ${cy}══════════════════════════════════${NC}"
 echo -e  "  "
 echo -e "\e[1;31m"
-read -p  "     ${wh}Please select an option :  ${NC}" menu
+read -p  "     Please select an option :  " menu
 echo -e "\e[0m"
  case $menu in
   1)
