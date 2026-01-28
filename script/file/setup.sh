@@ -137,7 +137,7 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING XRAY CHANGER  ${NC}"
 echo -e "============================================="
 sleep 2
-wget -q -O /usr/bin/xcorechanger "https://raw.githubusercontent.com/NiL070/XrayCoreChanger/main/xcorechanger.sh" && chmod +x /usr/bin/xcorechanger && xcorechanger 
+wget -q -O /usr/bin/xcorechanger "https://raw.githubusercontent.com/NiL070/XrayCoreChanger/main/xcorechanger.sh" && chmod +x /usr/bin/xcorechanger 
 sleep 2
 clear
 
